@@ -1,0 +1,232 @@
+* {
+    direction: rtl;
+    margin: 0;
+    font-family: "Azarmehr";
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "Azarmehr";
+    src: url("./Font/Sans/Font/AzarMehrMonospacedSansRegular.woff") format("woff"),
+        url("./Font/Sans/Font/AzarMehrMonospacedSansRegular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Azarmehr";
+    src: url("./Font/Sans/Font/AzarMehrMonospacedSansBold.woff") format("woff"),
+        url("./Font/Sans/Font/AzarMehrMonospacedSansBold.woff2") format("woff2");
+    font-weight: bold, 900;
+}
+
+
+.header-black-bg-full-width {
+    background: #000;
+    height: 140px;
+
+
+    /* overflow-y: hidden; */
+}
+
+.banner {
+    background-color: #3ECF8E;
+    padding: 16px 0px;
+    text-align: center;
+
+
+}
+
+.banner-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    direction: ltr;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    padding: 30px 0;
+    width: 1200px;
+    margin: auto;
+    gap: 40px;
+    position: relative;
+}
+
+.unorderd-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 750px;
+
+}
+
+.login-search-cart-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.menu-title,
+.log-section {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.Separator {
+    margin: 0 10px;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 20px;
+}
+
+.service-dropdown {
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    border-radius: 14px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.004);
+    gap: 60px;
+    background: #fff;
+    position: absolute;
+    top: 100px;
+    right: -7px;
+    padding: 8px 12px;
+    opacity: 0;
+    transition: 0.2s ease;
+    pointer-events: none;
+
+
+
+}
+
+.service-li-hover:hover .service-dropdown {
+    opacity: 1;
+    pointer-events: auto;
+
+
+}
+
+
+li:hover {
+    padding: 0px 16px;
+    color: #fff;
+    border-radius: 20px;
+    background: red;
+}
+
+.service-dropdown-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    width: max-content;
+}
+
+.dropdown-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.first-message {
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sup-online-popup-absolute {
+    position: relative;
+    height: 76vh;
+}
+
+.sup-online-popup {
+    border-radius: 12px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 630px;
+    background: #cdcdcd27;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.red-bg-section-text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.red-bg-section {
+    display: flex;
+    background: red;
+    position: relative;
+    border-radius: 8px 8px 0px 0;
+    gap: 36px;
+}
+
+.red-bg-section-text span {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.fa-xmark {
+    color: #ffffff;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    font-size: 12px;
+
+}
+
+.chat-section {
+    padding: 10px 14px;
+    margin-top: 16px;
+
+
+
+}
+
+.chat-buttom {
+    color: #fff;
+    background: red;
+    border-radius: 8px;
+    padding: 2px 8px;
+}
+
+.paragraph {
+    font-size: 14px;
+    word-spacing: -1px;
+    padding-bottom: 10px;
+}
+
+.img-section img {
+    border-radius: 20px;
+}
+
+.sup-img {
+    margin-right: -16px;
+}
